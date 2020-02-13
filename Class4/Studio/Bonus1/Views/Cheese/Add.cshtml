@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<h1>Add Cheese</h1>
+
+@if (!string.IsNullOrEmpty(ViewBag.ErrorMessage))
+{
+    <p>@ViewBag.ErrorMessage</p>
+}
+
+<form method="post">
+    <p>
+        <label>Name</label>
+        <input name="name" />
+    </p>
+    <p>
+        <label>Description</label>
+        <input name="description" />
+    </p>
+    <p>
+        <input type="submit" value="Add Cheese" />
+    </p>
+</form>

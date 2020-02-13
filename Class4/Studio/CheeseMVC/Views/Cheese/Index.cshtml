@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<h1>My Cheeses</h1>
+
+<p><a asp-controller="Cheese" asp-action="Add">Add Cheeses</a></p>
+
+@if (ViewBag.Cheeses.Count == 0)
+{
+    <p>No cheeses yet.</p>
+}
+else
+{
+    <ul>
+        @foreach (var cheese in ViewBag.Cheeses as Dictionary<string, string>)
+        {
+            <li>@cheese.Key - @cheese.Value</li>
+        }
+    </ul>
+
+    <p><a asp-controller="Cheese" asp-action="Remove">Remove Cheese</a></p>
+
+    <p><a asp-controller="Cheese" asp-action="RemoveMultiple">Remove Cheeses</a></p>
+}
