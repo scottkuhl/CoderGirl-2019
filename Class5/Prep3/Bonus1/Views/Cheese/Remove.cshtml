@@ -1,0 +1,18 @@
+﻿
+@{
+    Layout = null;
+}
+
+<h1>Remove Cheeses</h1>
+
+<form method="post">
+    <select name="cheese">
+        @foreach (var cheese in ViewBag.Cheeses as List<Cheese>)
+        {
+            <option value="@cheese.Name">@cheese.Name</option>
+        }
+    </select>
+    <p>
+        <input type="submit" value="Remove Cheese" />
+    </p>
+</form>
