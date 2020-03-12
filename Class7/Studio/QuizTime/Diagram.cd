@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuizTime.Question">
+    <Position X="9.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAIQAAAAAIAAgAAAAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.QuestionList">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuestionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.Checkbox">
+    <Position X="7.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAIAAgAAAAA=</HashCode>
+      <FileName>Checkbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.MultipleChoice">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAgAAAAA=</HashCode>
+      <FileName>MultipleChoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.TrueFalse">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAgAAAAA=</HashCode>
+      <FileName>TrueFalse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.Quiz">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>Quiz.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Questions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuizTime.Checkbox">
+    <Position X="13" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAAIAAgAAAAA=</HashCode>
+      <FileName>Checkbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.MultipleChoice">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAgAAAAA=</HashCode>
+      <FileName>MultipleChoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.LinearScale">
+    <Position X="8.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAgACAAAAAAAAAAAAAAAAAIgAgAAAAA=</HashCode>
+      <FileName>LinearScale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.ParagraphAnswer">
+    <Position X="17.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ParagraphAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.Question">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAIQAAAAAIAAgAAAAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.QuestionList">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuestionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.Quiz">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>Quiz.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Questions" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="QuizTime.ShortAnswer">
+    <Position X="19.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShortAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.TrueFalse">
+    <Position X="10.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAIAAgAAAAA=</HashCode>
+      <FileName>TrueFalse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizTime.TextAnswer">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAAAAAAAAAAAAAAIQAgAAAAA=</HashCode>
+      <FileName>TextAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

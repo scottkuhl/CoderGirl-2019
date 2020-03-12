@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Title";
+}
+
+<h1>Remove Cheeses</h1>
+
+<form method="post">
+    <ul>
+        @foreach (var cheese in ViewBag.Cheeses as List<Cheese>)
+        {
+            <li><input type="checkbox" name="cheeses" value="@cheese.Name" />@cheese.Name</li>
+        }
+    </ul>
+    <p>
+        <input type="submit" value="Remove Cheese" />
+    </p>
+</form>
