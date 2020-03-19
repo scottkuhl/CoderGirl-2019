@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Add User";
+}
+
+<form method="post">
+    <label for="Username">Username</label>
+    <input type="text" name="Username" value="@ViewBag.Username" />
+    <br />
+
+    <label for="Email">Email</label>
+    <input type="text" name="Email" value="@ViewBag.Email" />
+    <br />
+
+    <label for="Password">Password</label>
+    <input type="password" name="Password" />
+    <br />
+
+    <label for="Verify">Verify Password</label>
+    <input type="password" name="Verify" />
+
+    @if(ViewBag.Errors != null)
+    {
+        foreach(var error in ViewBag.Errors)
+        {
+            <p>@error</p>
+        }
+    }
+
+    <br />
+
+    <input type="submit" value="Add User" />
+</form>

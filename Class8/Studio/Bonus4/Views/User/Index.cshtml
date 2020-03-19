@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach (var user in ViewBag.Users)
+{
+    <p>
+        <a asp-controller="User" asp-action="Detail" asp-route-userId="@user.UserId">@user.Username</a>
+    </p>
+}
