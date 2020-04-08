@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{359DDFC7-BDB1-4B02-8FC3-C38BDCFF7E9F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B11B5507-A215-43B7-B123-0FFE5317A9E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechJobs", "src\TechJobs\TechJobs.csproj", "{432E3C7E-2CED-4DC4-B943-68705D2A89D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432E3C7E-2CED-4DC4-B943-68705D2A89D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432E3C7E-2CED-4DC4-B943-68705D2A89D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432E3C7E-2CED-4DC4-B943-68705D2A89D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432E3C7E-2CED-4DC4-B943-68705D2A89D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{432E3C7E-2CED-4DC4-B943-68705D2A89D6} = {359DDFC7-BDB1-4B02-8FC3-C38BDCFF7E9F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6206E1B-3BE0-454A-A9DB-D8C8456739A9}
+	EndGlobalSection
+EndGlobal
