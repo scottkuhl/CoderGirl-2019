@@ -1,0 +1,32 @@
+﻿@if (ViewBag.jobs != null)
+{
+    var cultureInfo = System.Threading.Thread.CurrentThread.CurrentCulture;
+    var textInfo = cultureInfo.TextInfo;
+
+    <h3>@ViewBag.jobs.Count Result(s)</h3>
+
+    foreach (var job in ViewBag.jobs as List<Dictionary<string, string>>)
+    {
+        <table class="table job-listing">
+
+            <thead>
+                <tr>
+                    <th scope="col">Key</th>
+                    <th scope="col">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var property in job)
+                {
+                    <tr>
+                        <td>@textInfo.ToTitleCase(property.Key)</td>
+                        <td><a asp-controller="List" asp-action="Jobs" asp-route-column="@property.Key" asp-route-value="@property.Value">@property.Value</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <br />
+    }
+
+}
